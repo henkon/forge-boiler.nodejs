@@ -10,10 +10,12 @@
       "value": "production"
     },
     "FORGE_CLIENT_ID": {
-      "description": "Your Forge Client ID API Key"
+        "description": "Your Forge Client ID API Key",
+        "value":  "cZGGH16AdD81HX3VWNouLVQopvKuIAK0"
     },
     "FORGE_CLIENT_SECRET": {
-      "description": "Your Forge Client Secret API Key"
+        "description": "Your Forge Client Secret API Key",
+        "value":  "CyPADKKPBMg8vxPq"
     }
   }
 }

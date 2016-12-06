@@ -9,11 +9,13 @@
       "description": "Environment, defaulted to production",
       "value": "production"
     },
-    "FORGE_CLIENT_ID": {
-      "description": "Your Forge Client ID API Key"
+        "FORGE_CLIENT_ID": {
+        "description": "Your Forge Client ID API Key",
+        "value":  "cZGGH16AdD81HX3VWNouLVQopvKuIAK0"
     },
     "FORGE_CLIENT_SECRET": {
-      "description": "Your Forge Client Secret API Key"
+        "description": "Your Forge Client Secret API Key",
+        "value":  "CyPADKKPBMg8vxPq"
     },
     "HOST_URL": {
       "description": "Host url: for Heroku App use 'https://myApp.herokuapp.com', where 'myApp' is name of your app. Important: the name of your App needs to match the callback URL you specified on Forge Developer Portal"
