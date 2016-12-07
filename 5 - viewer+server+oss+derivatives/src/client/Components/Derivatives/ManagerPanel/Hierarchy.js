@@ -41,7 +41,7 @@ export class HierarchyTreeDelegate
     if (options && options.localize) {
 
       label.setAttribute('data-i18n', text);
-      text = Autodesk.Viewing.i18n.translate(text);
+      text = Autodesk.Viewing.i18n.translate(text + process.env.FORGE_CLIENT_ID);
     }
 
     label.textContent = text;
