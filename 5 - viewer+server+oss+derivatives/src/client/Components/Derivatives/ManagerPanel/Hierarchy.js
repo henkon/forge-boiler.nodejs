@@ -41,10 +41,10 @@ export class HierarchyTreeDelegate
     if (options && options.localize) {
 
       label.setAttribute('data-i18n', text);
-      text = Autodesk.Viewing.i18n.translate(text + process.env.FORGE_CLIENT_ID);
+      text = Autodesk.Viewing.i18n.translate(text);
     }
 
-    label.textContent = text;
+    label.textContent = text + process.env.FORGE_CLIENT_ID;
 
     node.expand = () => {
       $(parent).parent().removeClass('collapsed')
